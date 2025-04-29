@@ -17,6 +17,12 @@ With the ```venv``` active now install the required packages from the commandlin
 
 ```(venv) (base)> pip install -r requirements.txt```
 
+##IMPORTANT
+Some of the chat interface files are not installed through the install. You need to copy these files manually to the ```venv```.
+You find a folder ```chat-bubble``` inside the ```doc``` folder. Copy this folder with all the content and paste it as a subfolder inside:
+
+```venv\lib\python3.10\cltl_service\chatui\static```
+
 ## Installation of the LLM server
 After installing the requirements, you need to install the LLM locally.
 There are two options for running an LLM as s server locally:

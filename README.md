@@ -71,6 +71,8 @@ The ```model``` setting is required for the Ollama server, which should match th
 If you use the the ```llama.cpp``` server instead, you should uncomment the ```server``` and ```port``` options. In that case,
 the model that is launched in the ```llama.cpp``` server is being called.
 
+The default setting now assume you have Ollama installed and pulled the ```llama3.2``` model.
+
 You can further adapt the ```instruction``` prompt and also the ```intro``` that starts the conversation and the ```stop``` that terminates the conversation.
 The ```temperature``` is a value between ```0``` and ```1.0```. Closer to ```0``` makes the response closer to the instruction and closer to ```1.0```
 makes the response more creative. The ```max_history``` limits the conversational context that is included in the prompt. Turns upto this maximum are given as preceeeding context.
